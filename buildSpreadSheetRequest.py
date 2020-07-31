@@ -6,7 +6,7 @@ def buildRequest(jsonName):
         runs = json.load(f)
     requestValues = []
     pbValues = []
-    goldValues = []buildSpreadSheetRequest.buildRequest()
+    goldValues = []
     for key in runs["PB"]:
         pbValues.append(runs["PB"][key])
     for key in runs["Gold"]:
